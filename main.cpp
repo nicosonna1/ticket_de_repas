@@ -139,7 +139,7 @@ int main() {
              << "===================================" << endl;
 
         cout << fixed << setprecision(2);
-        cout << nbEntree   << setw(LARG_COL) << (nbEntree<=1    ?    " Entree"  :" Entrees")                << ":"  << right    << setw(LARG_COL_P) << (float)nbEntree*PRIXENTREE    << endl
+        cout << nbEntree              << setw(LARG_COL) << (nbEntree<=1    ?    " Entree"  :" Entrees")     << ":"  << right    << setw(LARG_COL_P) << (float)nbEntree*PRIXENTREE    << endl
                 << left << nbPlat     << setw(LARG_COL) << (nbPlat<=1      ?    " Plat"    :" Plats")       << ":"  << right    << setw(LARG_COL_P) << (float)nbPlat*PRIXPLAT        << endl
                 << left << nbBoissons << setw(LARG_COL) << (nbBoissons<=1  ?    " Boisson" :" Boissons")    << ":"  << right    << setw(LARG_COL_P) << (float)nbBoissons*PRIXBOISSON << endl
                 << left << nbDessert  << setw(LARG_COL) << (nbDessert<=1   ?    " Dessert" :" Desserts")    << ":"  << right    << setw(LARG_COL_P) << (float)nbDessert*PRIXDESSERT  << endl
